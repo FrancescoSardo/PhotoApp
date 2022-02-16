@@ -9,7 +9,7 @@ const Stack = createStackNavigator();
 const Navigator = () => {
   return (
     <Stack.Navigator>
-      <Stack.Screen  name="Album" component={Album} />
+      <Stack.Screen  name="Album" component={Album} options={{headerShown: true}} />
       <Stack.Screen  name="Shared Album" component={SharedAlbum} />
     </Stack.Navigator>
   );

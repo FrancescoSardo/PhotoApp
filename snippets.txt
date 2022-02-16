@@ -1,0 +1,15 @@
+rnstyle→	const styles = StyleSheet.create({})
+imrn→	import { $1 } from 'react-native'
+imrse→	import React, { useState, useEffect } from 'react'
+imr→	import React from 'react'
+
+ptfr→	PropTypes.func.isRequired
+--------------------- due snippet diverse
+
+rscp -> il component stateless con props.Type 
+
+rsc / component  stateless base 
+
+rcc -> component base
+
+Per formattare cmd K + cmd F
