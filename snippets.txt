@@ -4,6 +4,8 @@ imrse→	import React, { useState, useEffect } from 'react'
 imr→	import React from 'react'
 
 ptfr→	PropTypes.func.isRequired
+
+nfn→	const functionName = (params) => { }
 --------------------- due snippet diverse
 
 rscp -> il component stateless con props.Type 

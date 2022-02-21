@@ -12,9 +12,9 @@ import Avatar from "./Avatar";
 
 const Cards = (props) => {
   const p = props.item;
-  console.log("-------------------------")
+  /* console.log("-------------------------")
   
-  console.log(p.avatars)
+  console.log(p.avatars) */
   return (
     <ImageBackground source={p.background} style={styles.imagebackground}>
       <Pressable 

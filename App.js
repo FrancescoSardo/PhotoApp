@@ -7,6 +7,11 @@ import Feather from '@expo/vector-icons/Feather'
 import { useFonts, Nunito_400Regular as NunitoRegular, Nunito_700Bold as NunitoBold } from '@expo-google-fonts/nunito';
 import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
 import Navigator from './src/navigation/Index.js';
+import { LogBox } from 'react-native';
+
+//! PER IGNORARE UN WARNINGS
+LogBox.ignoreLogs(['VirtualizedLists'])
+
 // The theme we'll be using for our navigator
 const MyTheme = {
   ...DefaultTheme,
@@ -15,6 +20,7 @@ const MyTheme = {
     background: '#FAFAFA'
   },
 };
+
 
 // Loads the Feather icons (https://docs.expo.io/guides/icons/)
 function cacheFonts(fonts) {
